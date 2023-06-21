@@ -17,16 +17,20 @@
         </div>
         <div class="player-container" id="player">
             <h2>You - <span id="playerScore"></span><span class="choice" id="playerChoice"></span></h2>
+            <div class="flex">
             <i class="far fa-hand-rock" title="Rock" id="playerRock" onclick="select('rock')"></i>
             <i class="far fa-hand-paper" title="Paper" id="playerPaper" onclick="select('paper')"></i>
             <i class="far fa-hand-scissors" title="Scissor" id="playerScissor" onclick="select('scissor')"></i>
         </div>
+        </div>
 
         <div class="player-container" id="bot">
             <h2>Bot - <span id="botScore"></span><span class="choice" id="botChoice"></span></h2>
+            <div class="flex">
             <i class="far fa-hand-rock" title="Rock" id="botRock"></i>
             <i class="far fa-hand-paper" title="Paper" id="botPaper"></i>
             <i class="far fa-hand-scissors" title="Scissor" id="botScissor"></i>
+        </div>
         </div>
 
         <i class="fas fa-sync-alt reset-icon" title="Reset" onclick="resetAll()"></i>
